@@ -15,19 +15,19 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-light">
                 <div className="container-fluid">
-                    <Link className='navbar-brand' to='/'>
+                    <Link className='navbar-brand' to='./'>
                         <img src={logo} alt="Inicio" width="50" height="24" />
                     </Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav" style={centrarNavbar}>
                             <li className="nav-item">
-                                <Link className="nav-link active" to='/'>Inicio</Link>
+                                <Link className="nav-link active" to='./'>Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/Productos'>Productos</Link>
+                                <Link className="nav-link" to='./Productos'>Productos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='About'>About</Link>
+                                <Link className="nav-link" to='./About'>About</Link>
                             </li>
                         </ul>
                     </div>
