@@ -21,13 +21,13 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav" style={centrarNavbar}>
                             <li className="nav-item">
-                                <Link className="nav-link active" to='./'>Inicio</Link>
+                                <Link className="nav-link active" to='/'>Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='./Productos'>Productos</Link>
+                                <Link className="nav-link" to='/Productos'>Productos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='./About'>About</Link>
+                                <Link className="nav-link" to='/About'>About</Link>
                             </li>
                         </ul>
                     </div>
